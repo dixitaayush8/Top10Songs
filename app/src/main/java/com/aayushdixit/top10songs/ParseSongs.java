@@ -2,9 +2,6 @@ package com.aayushdixit.top10songs;
 
 import android.content.Context;
 import android.util.Log;
-import android.widget.ImageView;
-
-import com.squareup.picasso.Picasso;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
@@ -80,10 +77,7 @@ public class ParseSongs {
                             {
                                 songRecord.setReleaseDate(textValue); //sets release date
                             }
-                            else if(tagName.equalsIgnoreCase("image"))
-                            {
-                                songRecord.setPhoto(textValue);
-                            }
+                   
                         }
                         break;
 
