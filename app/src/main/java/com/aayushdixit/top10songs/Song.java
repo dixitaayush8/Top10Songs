@@ -1,7 +1,5 @@
 package com.aayushdixit.top10songs;
 
-import android.widget.ImageView;
-
 /**
  * Created by Aayush on 10/8/2016.
  */
