@@ -10,7 +10,6 @@ public class Song {
     private String name; //instance variable for name
     private String artist; //instance variable for artist
     private String releaseDate; //instance variable for release date
-    private String photo;
 
     public String getName() {
         return name;
@@ -23,12 +22,7 @@ public class Song {
     public String getReleaseDate() {
         return releaseDate;
     } //returns the release date
-
-    public String getPhoto()
-    {
-        return photo;
-    }
-
+    
     public void setName(String name) {
         this.name = name;
     } // sets name of the Song object
@@ -40,11 +34,6 @@ public class Song {
     public void setReleaseDate(String releaseDate) {
         this.releaseDate = releaseDate;
     } //sets release date of the song object
-
-    public void setPhoto(String photo)
-    {
-        this.photo = photo;
-    }
 
     public String toString() //overrides toString method
     {
