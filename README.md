@@ -1,1 +1,1 @@
-An Android app that generates the latest top 10 songs on iTunes 
+An Android app that lists the Top 10 Songs on iTunes 
